@@ -2,4 +2,8 @@ function display(){
     console.log("Hello World!")
 }
 
-display()
+// display()
+
+(() => {
+    console.log("IIFE");
+})()
